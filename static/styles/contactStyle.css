@@ -1,0 +1,302 @@
+/* Adding font to the website */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&display=swap');
+
+/* Reseting the CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+    background-color: #f3f3f3;
+    /* overflow: hidden; */
+}
+
+/* Styling the Navigation Bar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 13%;
+    margin-top: 0px;
+    /* position: fixed; */
+    width: 100%;
+
+}
+
+#resume-navbar{
+    border-right: 1px solid black;
+}
+
+#resume-navbar a{
+    color: black;
+}
+
+#projects-navbar{
+    border-right: 1px solid black;
+}
+
+#projects-navbar a{
+    color: black;
+}
+
+#contact-navbar a{
+    color: black;
+}
+
+#right-container{
+    margin: 0px 23px;
+}
+
+#right-container ul{
+    display: flex;
+    margin: 30px 47px;
+
+
+}
+
+#right-container ul li{
+    list-style-type: none;
+
+}
+
+#right-container ul li a{
+    text-decoration: none;
+    margin: 0px 12px;
+
+}
+
+#right-container ul li a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#left-container{
+    display: flex;
+    margin: 30px 43px;
+
+}
+
+#left-head{
+    display: flex;
+
+}
+
+#left-head a{
+    margin: -3px 14px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#left-head p{
+    margin: 1px -4px;
+}
+
+#left-circle{
+    border: 2px solid goldenrod;
+    width: 30px;
+    height: 30px;
+    background-color: goldenrod;
+    border-radius: 50%;
+
+}
+
+
+/* Styling Content here of Contact page */
+#contact-body{
+    display: flex;
+    width: 83%;
+
+}
+
+#contact-form-container{
+    display: grid;
+    grid-template-areas: 'firstName lastName'
+    'email subject'
+    'message submit';
+}
+
+#first-name-contact-container{
+    grid-area: firstName;
+}
+
+#last-name-contact-container{
+    grid-area: lastName;
+}
+
+#email-name-contact-container{
+    grid-area: email;
+}
+
+#subject-name-contact-container{
+    grid-area: subject;
+}
+
+#message-name-contact-container{
+    grid-area: message;
+}
+
+#submit-btn-contact-form{
+    grid-area: submit;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    color: black;
+    font-weight: bold;
+    margin: auto auto;
+    font-size: 19px;
+    background-color: #f2b51e;
+    transition: background-color 0.5s;
+}
+
+#submit-btn-contact-form:hover{
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+
+.contact-form input, .contact-form textarea{
+    display: block;
+}
+
+.contact-form textarea{
+    background-color: #f3f3f3;
+    width: 203px;
+    height: 160px;
+    padding: 5px 6px;
+}
+
+#contact-body{
+    margin: 5% 17%;
+}
+
+#contact-container h1{
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+#contact-container h2{
+    font-size: 1.1rem;
+}
+
+.contact-form input{
+    padding: 11px 24px;
+    background-color: #f3f3f3;
+    border: 1px solid black;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.contact-form{
+    margin: 10px 13px;
+}
+
+#head-para{
+    margin-top: 12px;
+    font-style: italic;
+}
+
+#contact-container h2{
+    margin-top: 29px;
+}
+
+#phone-para, #email-para{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#contact-form-container{
+    margin: 0% 16%;
+}
+
+/* Styling Footer here... */
+
+#footer{
+    display: flex;
+    align-items: center;
+    padding: 27px 0px;
+    border-top: 2px solid #c7c7c7;
+    margin: 0% 0%;
+}
+
+#footer-phone-container{
+    margin: 0px 49px;
+}
+
+#footer-phone{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+#footer-email-container{
+    margin: 0px 197px;
+}
+
+#footer-email{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#footer-social-container{
+    margin: 0px 83px;
+}
+
+#footer-social-icons{
+    margin: 4px -11px;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer-follow{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#footer-email{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#footer-copyright-container{
+    margin: 0px 134px;
+    font-size: 12px;
+    font-size: 12px;
+}
+
+.fa-instagram{
+    color: black;
+}
+
+.fa-instagram:hover{
+    cursor: pointer;
+    color: #7d137d;
+}
+
+.fa-facebook{
+    color: black;
+}
+
+.fa-facebook:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+
+.fa-youtube{
+    color: black;
+}
+
+.fa-youtube:hover{
+    color: red;
+    cursor: pointer;
+}
+

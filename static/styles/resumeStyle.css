@@ -1,0 +1,213 @@
+/* Adding font to the website */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&display=swap');
+
+/* Reseting the CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+
+/* Styling the Navigation Bar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 13%;
+    margin-top: 0px;
+    /* position: fixed; */
+    width: 100%;
+
+}
+
+#resume-navbar{
+    border-right: 1px solid black;
+}
+
+#resume-navbar a{
+    color: black;
+}
+
+#projects-navbar{
+    border-right: 1px solid black;
+}
+
+#projects-navbar a{
+    color: black;
+}
+
+#contact-navbar a{
+    color: black;
+}
+
+#right-container{
+    margin: 0px 23px;
+}
+
+#right-container ul{
+    display: flex;
+    margin: 30px 47px;
+
+
+}
+
+#right-container ul li{
+    list-style-type: none;
+
+}
+
+#right-container ul li a{
+    text-decoration: none;
+    margin: 0px 12px;
+
+}
+
+#right-container ul li a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#left-container{
+    display: flex;
+    margin: 30px 43px;
+
+}
+
+#left-head{
+    display: flex;
+
+}
+
+#left-head a{
+    margin: -3px 14px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#left-head p{
+    margin: 1px -4px;
+}
+
+#left-circle{
+    border: 2px solid goldenrod;
+    width: 30px;
+    height: 30px;
+    background-color: goldenrod;
+    border-radius: 50%;
+
+}
+
+/* Styling resume content here */
+#resume-content{
+    display: flex;
+    justify-content: center;
+    margin: 10% 0%;
+}
+
+#resume-content h1{
+    margin: -4px 13px;
+
+}
+
+.fa-file-pdf{
+    color: #a00505;
+    font-size: 35px;}
+
+
+
+/* Styling Footer here... */
+
+#footer{
+    display: flex;
+    align-items: center;
+    padding: 27px 0px;
+    border-top: 2px solid #c7c7c7;
+    margin: 20% 0%;
+}
+
+#footer-phone-container{
+    margin: 0px 49px;
+}
+
+#footer-phone{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+#footer-email-container{
+    margin: 0px 197px;
+}
+
+#footer-email{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#footer-social-container{
+    margin: 0px 83px;
+}
+
+#footer-social-icons{
+    margin: 4px -11px;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer-follow{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#footer-email{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#footer-copyright-container{
+    margin: 0px 134px;
+    font-size: 12px;
+    font-size: 12px;
+}
+
+.fa-instagram{
+    color: black;
+}
+
+.fa-instagram:hover{
+    cursor: pointer;
+    color: #7d137d;
+}
+
+.fa-facebook{
+    color: black;
+}
+
+.fa-facebook:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+
+.fa-youtube{
+    color: black;
+}
+
+.fa-youtube:hover{
+    color: red;
+    cursor: pointer;
+}
+
+

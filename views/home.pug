@@ -1,0 +1,66 @@
+extends base.pug
+
+block style 
+    link(rel="stylesheet", href="../static/styles/style.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", integrity="sha384-...your-unique-CSS-integrity-hash...", crossorigin="anonymous")
+
+
+    //- This is for adding logo image to the Title bar :)
+
+    //- <link rel="icon" href="../static/image/sohan-img.jpg" type="image/x-icon">
+    //- <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    //- <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
+
+
+block content 
+    section#section-1
+        div
+            img(src="../static/image/sohan-img1.jpg", alt="Sohan Singh img")#sec-1-img
+        div#sec-1-content
+            h1#sec-1-heading Hello
+            h3#sec-1-sub-heading A Bit About Me 
+            p#sec-1-para I'm a paragraph. Click here to add your own text and edit me. I'm a great place for you to tell a story and let your users know a little more about you.
+            div#sec-1-circle-container
+                a(href="/resume")#sec-1-resume.sec-1-circle Resume
+                a(href="/projects")#sec-1-projects.sec-1-circle Projects 
+                a(href="/contact")#sec-1-contact.sec-1-circle Contact
+
+block footer 
+      footer#footer
+          div#footer-phone-container
+              p#footer-phone Phone 
+              p#footer-phone-number 123-246-4326
+    
+          div#footer-email-container 
+              p#footer-email Email
+              p#footer-email-id xyz-abc@123
+      
+          div#footer-social-container 
+              p#footer-follow Follow Me
+              div#footer-social-icons
+                  p#instagram 
+                      a(href="https://www.instagram.com/codeysohan/" target="_blank")
+                          i.fab.fa-instagram
+                  p#facebook
+                      a(href="https://www.facebook.com" target="_blank")
+                          i.fab.fa-facebook
+                  p#youtube
+                      a(href="https://www.youtube.com/@SohanSinghOfficial" target="_blank")
+                          i.fab.fa-youtube
+
+          div#footer-copyright-container 
+              p#footer-copyright &copy; By Sohan Singh. 
+              | All Rights Reserved!
+        
+
+
+
+
+
+
+
+
+
+
+
+

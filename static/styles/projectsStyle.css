@@ -1,0 +1,300 @@
+/* Adding font to the website */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100&display=swap');
+
+/* Reseting the CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+    background-color: #f3f3f3;
+    /* overflow: hidden; */
+}
+
+/* Styling the Navigation Bar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 13%;
+    margin-top: -121px;
+    position: fixed;
+    width: 100%;
+
+}
+
+#resume-navbar{
+    border-right: 1px solid black;
+}
+
+#resume-navbar a{
+    color: black;
+}
+
+#projects-navbar{
+    border-right: 1px solid black;
+}
+
+#projects-navbar a{
+    color: black;
+}
+
+#contact-navbar a{
+    color: black;
+}
+
+#right-container{
+    margin: 0px 23px;
+}
+
+#right-container ul{
+    display: flex;
+    margin: 30px 47px;
+
+
+}
+
+#right-container ul li{
+    list-style-type: none;
+
+}
+
+#right-container ul li a{
+    text-decoration: none;
+    margin: 0px 12px;
+
+}
+
+#right-container ul li a:hover{
+    color: goldenrod;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#left-container{
+    display: flex;
+    margin: 30px 43px;
+
+}
+
+#left-head{
+    display: flex;
+
+}
+
+#left-head a{
+    margin: -3px 14px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#left-head p{
+    margin: 1px -4px;
+}
+
+#left-circle{
+    border: 2px solid goldenrod;
+    width: 30px;
+    height: 30px;
+    background-color: goldenrod;
+    border-radius: 50%;
+
+}
+
+/* Lets style Projects content here */
+#projects-heading{
+    margin: 9% auto;
+    width: fit-content;
+    text-decoration: underline;
+    font-size: 36px;
+    text-underline-offset: 16px;   
+}
+
+#project-1{
+    display: grid;
+    grid-template-areas: 'project-1-head project-1-img project-1-img'
+                        'project-1-para project-1-img project-1-img';
+
+    
+
+}
+
+#project-1 h2{
+    grid-area: project-1-head;
+    margin: 2% 11%;
+    text-underline-offset: 10px;
+    font-size: 24px;
+    text-decoration: underline;
+
+}
+
+#project-1 p{
+    grid-area: project-1-para;
+    padding: 0px 88px;
+    margin: -15% 1%;
+}
+
+#project-1 img{
+    grid-area: project-1-img;
+    margin: 4% -14%;
+    width: 90%;
+    height: 90%;
+    border-radius: 6%;
+}
+
+#project-2{
+    display: grid;
+    grid-template-areas: 'project-2-head project-2-img project-2-img'
+    'project-2-para project-2-img project-2-img';
+    margin: 11% 0%;
+    
+    
+    
+}
+
+#project-2 h2{
+    grid-area: project-2-head;
+    margin: 2% 11%;
+    text-underline-offset: 10px;
+    font-size: 24px;
+    text-decoration: underline;
+    
+}
+
+#project-2 p{
+    grid-area: project-2-para;
+    padding: 0px 88px;
+    margin: -15% 1%;
+}
+
+#project-2 img{
+    grid-area: project-2-img;
+    margin: 4% -14%;
+    width: 90%;
+    height: 90%;
+    border-radius: 6%;
+}
+
+#project-3{
+    display: grid;
+    grid-template-areas: 'project-3-head project-3-img project-3-img'
+                        'project-3-para project-3-img project-3-img';
+    margin: 11% 0%;
+}
+
+
+#project-3 h2{
+    grid-area: project-3-head;
+    margin: 2% 11%;
+    text-underline-offset: 10px;
+    font-size: 24px;
+    text-decoration: underline;
+
+}
+
+#project-3 p{
+    grid-area: project-3-para;
+    padding: 0px 88px;
+    margin: -15% 1%;
+}
+
+#project-3 img{
+    grid-area: project-3-img;
+    margin: 4% -14%;
+    width: 90%;
+    height: 90%;
+    border-radius: 6%;
+}
+
+
+
+/* Styling Footer here... */
+
+#footer{
+    display: flex;
+    align-items: center;
+    padding: 27px 0px;
+    border-top: 2px solid #c7c7c7;
+    margin: 0% 0%;
+}
+
+#footer-phone-container{
+    margin: 0px 49px;
+}
+
+#footer-phone{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+#footer-email-container{
+    margin: 0px 197px;
+}
+
+#footer-email{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#footer-social-container{
+    margin: 0px 83px;
+}
+
+#footer-social-icons{
+    margin: 4px -11px;
+    font-size: 19px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer-follow{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#footer-email{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#footer-copyright-container{
+    margin: 0px 134px;
+    font-size: 12px;
+    font-size: 12px;
+}
+
+.fa-instagram{
+    color: black;
+}
+
+.fa-instagram:hover{
+    cursor: pointer;
+    color: #7d137d;
+}
+
+.fa-facebook{
+    color: black;
+}
+
+.fa-facebook:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+
+.fa-youtube{
+    color: black;
+}
+
+.fa-youtube:hover{
+    color: red;
+    cursor: pointer;
+}

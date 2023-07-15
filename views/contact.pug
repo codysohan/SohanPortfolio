@@ -1,0 +1,43 @@
+extends base.pug
+
+block style 
+    link(rel="stylesheet", href="../static/styles/contactStyle.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css", integrity="sha384-...your-unique-CSS-integrity-hash...", crossorigin="anonymous")
+
+block content
+    div#contact-body 
+        div#contact-container
+            h1 Contact
+            p#head-para Looking Forwards to hearing form you.
+
+            h2 Phone
+            p#phone-para 123-456-7890
+
+            h2 Email 
+            p#email-para info@mysite.com
+
+        div#contact-form-container
+            div#first-name-contact-container.contact-form
+                label(for="first-name") First Name: 
+                input(type="text", id="first-name", placeholder="Enter your First Name", onfocus="this.placeholder=''", onblur="this.placeholder='Enter your First Name'") 
+    
+            div#last-name-contact-container.contact-form
+                label(for="last-name") Last Name: 
+                input(type="text" id="last-name", placeholder="Enter your Last Name", onfocus="this.placeholder=''", onblur="this.placeholder='Enter your Last Name'") 
+    
+            div#email-contact-container.contact-form
+                label(for="email-contact-form") Email: 
+                input(type="email" id="email-contact-form" placeholder="Enter your Email Id", onfocus="this.placeholder=''", onblur="this.placeholder='Enter your Email Id'") 
+            
+            div#subject-contact-container.contact-form
+                label(for="subject-contact-form") Subject: 
+                input(type="text" id="subject-contact-form" placeholder="Enter the Subject", onfocus="this.placeholder=''", onblur="this.placeholder='Enter the Subject'") 
+
+            div#message-contact-container.contact-form
+                label(for="message-contact-container") Message: 
+                textarea(id="message-contact-container" rows="4" placeholder="Type your message here", onfocus="this.placeholder=''", onblur="this.placeholder='Type your message here'")
+
+            input(type="button", value="Submit", id="submit-btn-contact-form")
+
+   
+

@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title Sohan's Portfolio
+    block scripts
+    block style
+  body
+    
+    block navbar 
+        nav#navbar 
+            div#left-container
+                div#left-circle
+                div#left-head
+                    a(href="/") Sohan Singh 
+                    p Developer
+
+            div#right-container
+                ul 
+                    li#resume-navbar
+                        a(href="/resume") Resume 
+                    li#projects-navbar
+                        a(href="/projects") Projects
+                    li#contact-navbar
+                        a(href="/contact") Contact
+    block content
+    block footer
+        footer#footer
+              div#footer-phone-container
+                  p#footer-phone Phone 
+                  p#footer-phone-number 123-246-4326
+        
+              div#footer-email-container 
+                  p#footer-email Email
+                  p#footer-email-id xyz-abc@123
+          
+              div#footer-social-container 
+                  p#footer-follow Follow Me
+                  div#footer-social-icons
+                      p#instagram 
+                          a(href="https://www.instagram.com" target="_blank")
+                              i.fab.fa-instagram
+                      p#facebook
+                          a(href="https://www.facebook.com" target="_blank")
+                              i.fab.fa-facebook
+                      p#youtube
+                          a(href="https://www.youtube.com" target="_blank")
+                              i.fab.fa-youtube
+
+              div#footer-copyright-container 
+                  p#footer-copyright &copy; By Sohan Singh. 
+                  | All Rights Reserved!
+    
